@@ -175,8 +175,8 @@ internal fun internalRepoJSPayload(): Map<String, Any?> = mapOf(
     "url" to INTERNAL_REPO_URL,
     "enabled" to true,
     "internal" to true,
-    "name" to "Valenced",
-    "description" to "Plugins built into Valenced.",
+    "name" to "Revenge",
+    "description" to "Plugins built into Revenge.",
     "icon" to null,
 )
 

@@ -164,7 +164,7 @@ object DevLoader {
     private fun showUpdateDialog() = withAppActivity { activity ->
         activity.runOnUiThread {
             AlertDialog.Builder(activity)
-                .setTitle("Valenced Update Downloaded")
+                .setTitle("Revenge Update Downloaded")
                 .setMessage("A reload is required for changes to take effect.")
                 .setPositiveButton("Reload") { d, _ -> reloadApp(); d.dismiss() }
                 .setNegativeButton("Later") { d, _ -> d.dismiss() }
@@ -175,7 +175,7 @@ object DevLoader {
     private fun showSuccessDialog() = withAppActivity { activity ->
         activity.runOnUiThread {
             AlertDialog.Builder(activity)
-                .setTitle("Valenced Update Successful")
+                .setTitle("Revenge Update Successful")
                 .setMessage("A reload is required for changes to take effect.")
                 .setPositiveButton("Reload") { d, _ -> reloadApp(); d.dismiss() }
                 .setNegativeButton("Later") { d, _ -> d.dismiss() }
@@ -186,7 +186,7 @@ object DevLoader {
     private fun showErrorDialog(e: Throwable) = withAppActivity { activity ->
         activity.runOnUiThread {
             AlertDialog.Builder(activity)
-                .setTitle("Valenced Update Failed")
+                .setTitle("Revenge Update Failed")
                 .setMessage(
                     """
                     Unable to download the development bundle.

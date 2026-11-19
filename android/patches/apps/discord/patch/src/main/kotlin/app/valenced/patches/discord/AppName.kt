@@ -13,7 +13,7 @@ val changeAppName = patch("Change app name") {
         "appName",
         title = "App name",
         description = "The name the launcher shows.",
-        default = "Valenced",
+        default = "Revenge",
     )
 
     execute {

@@ -6,8 +6,8 @@ export const Setting = {
 } as const
 
 export const RouteNames = {
-    [Setting.ValencedPlugins]: 'Valenced Plugins',
-    [Setting.ValencedPluginsAdvanced]: 'Valenced Plugins Advanced',
+    [Setting.ValencedPlugins]: 'Revenge Plugins',
+    [Setting.ValencedPluginsAdvanced]: 'Revenge Plugins Advanced',
     [Setting.ValencedPluginsBrowse]: 'Browse Plugins',
     [Setting.ValencedPluginsUpdates]: 'Plugin Updates',
 } as const

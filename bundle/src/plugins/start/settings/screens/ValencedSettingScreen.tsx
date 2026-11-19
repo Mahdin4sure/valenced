@@ -21,7 +21,7 @@ export default function ValencedSettingScreen() {
                             type: 'list',
                             sections: [
                                 {
-                                    label: 'Valenced',
+                                    label: 'Revenge',
                                     settings: [
                                         Setting.ValencedVersion,
                                         Setting.LoaderVersion,
@@ -100,10 +100,10 @@ function DonateCard() {
                                 variant="heading-lg/semibold"
                                 color="text-strong"
                             >
-                                Support Valenced
+                                Support Revenge
                             </Text>
                             <Text variant="text-md/medium">
-                                You can support the development of Valenced by
+                                You can support the development of Revenge by
                                 donating or contributing!
                             </Text>
                         </Stack>

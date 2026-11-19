@@ -16,7 +16,7 @@ const Port = 4040
 const BundlePath = './dist/valenced.bundle'
 const BundleManifestPath = './dist/manifest.json'
 
-console.info(chalk.redBright(`\nValenced ${chalk.white(`v${pkg.version}`)}\n`))
+console.info(chalk.redBright(`\nRevenge ${chalk.white(`v${pkg.version}`)}\n`))
 
 const cwdify = (path: string) => join(process.cwd(), path)
 const Sources = [

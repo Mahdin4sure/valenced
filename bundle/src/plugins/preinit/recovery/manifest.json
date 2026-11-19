@@ -1,7 +1,7 @@
 {
   "id": "valenced.recovery",
   "name": "Recovery",
-  "description": "Handles errors and provides troubleshooting options for Valenced.",
+  "description": "Handles errors and provides troubleshooting options for Revenge.",
   "author": {
     "name": "Valenced",
     "links": [{ "url": "https://discord.com/invite/dtBTQHYSx4", "title": "Support Server" }]

@@ -1,7 +1,7 @@
 {
   "id": "valenced.settings.plugins",
   "name": "Plugin Settings",
-  "description": "Plugin management UI for Valenced.",
+  "description": "Plugin management UI for Revenge.",
   "author": {
     "name": "Valenced",
     "links": [{ "url": "https://discord.com/invite/dtBTQHYSx4", "title": "Support Server" }]

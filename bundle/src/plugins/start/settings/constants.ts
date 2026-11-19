@@ -20,5 +20,5 @@ export const Setting = {
 } as const
 
 export const RouteNames = {
-    [Setting.Valenced]: 'Valenced',
+    [Setting.Valenced]: 'Revenge',
 } as const

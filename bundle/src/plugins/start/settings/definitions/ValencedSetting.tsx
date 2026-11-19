@@ -9,7 +9,7 @@ const ValencedSetting: SettingsItem = {
     parent: null,
     type: 'route',
     IconComponent: () => <TableRowAssetIcon id={ValencedIcon} />,
-    useTitle: () => 'Valenced',
+    useTitle: () => 'Revenge',
     useTrailing: () => FullVersion,
     screen: {
         route: RouteNames[Setting.Valenced],

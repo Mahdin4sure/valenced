@@ -6,8 +6,8 @@ import type { ImageSourcePropType } from 'react-native'
 // TODO(PalmDevs): possibly fetch from external source?
 export const Badges = {
     valenced_team: {
-        label: 'Valenced Team',
-        description: 'This user is a Valenced team member.',
+        label: 'Revenge Team',
+        description: 'This user is a Revenge team member.',
         icon: ValencedIcon,
         bnw: true,
         showDialog: true,

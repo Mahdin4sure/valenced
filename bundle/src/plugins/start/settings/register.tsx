@@ -30,6 +30,6 @@ registerSettingsItems({
 })
 
 registerSettingsSection('VALENCED', {
-    label: 'Valenced',
+    label: 'Revenge',
     settings: [Setting.Valenced],
 })
