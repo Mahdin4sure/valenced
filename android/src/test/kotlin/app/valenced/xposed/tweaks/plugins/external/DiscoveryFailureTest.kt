@@ -149,7 +149,7 @@ class DiscoveryFailureTest {
         val top = discovery.failures["com.example.top"]
         assertNotNull(top)
         assertEquals(2, top.errors.size)
-        assertTrue(top.errors.all { it.code == PluginErrorCodes.DEPENDENCY_MISSING })
+        assertTrue(top.errors.all { it.code == PluginErrorCodes.DEPENDENCY_FAILED })
         assertTrue(top.errors.any { "com.example.bad1" in it.message })
         assertTrue(top.errors.any { "com.example.bad2" in it.message })
     }
