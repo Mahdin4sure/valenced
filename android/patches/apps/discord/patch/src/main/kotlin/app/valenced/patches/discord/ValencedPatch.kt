@@ -21,8 +21,8 @@ val valenced = patch("Valenced") {
 
     val moduleOption = pathOption(
         "module",
-        title = "Revenge Xposed module",
-        description = "The Revenge Xposed module APK to load.",
+        title = "RevengeXposed module",
+        description = "The RevengeXposed module APK to load.",
         required = true,
     )
 
