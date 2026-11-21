@@ -1,6 +1,6 @@
 import TableRowAssetIcon from '@valenced/components/TableRowAssetIcon'
 import { FullVersion } from '~/constants'
-import ValencedIcon from '~assets/ValencedIcon'
+import ValencedIcon from '~assets/RevengeIcon'
 import { RouteNames, Setting } from '../constants'
 import defer * as ValencedSettingScreen from '../screens/ValencedSettingScreen'
 import type { SettingsItem } from '@valenced/discord/modules/settings'

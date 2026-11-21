@@ -1,6 +1,6 @@
 import TableRowAssetIcon from '@valenced/components/TableRowAssetIcon'
 import { BuildEnvironment, FullVersion } from '~/constants'
-import ValencedIcon from '~assets/ValencedIcon'
+import ValencedIcon from '~assets/RevengeIcon'
 import { Setting } from '../constants'
 import { CopyableSetting } from './shared'
 import type { SettingsItem } from '@valenced/discord/modules/settings'

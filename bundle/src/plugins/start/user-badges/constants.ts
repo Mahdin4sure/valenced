@@ -1,4 +1,4 @@
-import ValencedIcon from '~assets/ValencedIcon'
+import ValencedIcon from '~assets/RevengeIcon'
 // TODO(PalmDevs): switch to external fetches
 import Data from './data.json'
 import type { ImageSourcePropType } from 'react-native'

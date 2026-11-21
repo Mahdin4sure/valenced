@@ -3,7 +3,7 @@ import { styles } from '@valenced/components/_'
 import { Design } from '@valenced/discord/design'
 import { SettingListRenderer } from '@valenced/discord/modules/settings/renderer'
 import { Image, Linking, ScrollView, StyleSheet, View } from 'react-native'
-import ValencedDonate from '~assets/ValencedDonate'
+import ValencedDonate from '~assets/RevengeDonate'
 import { Setting } from '../constants'
 
 const { Button, Card, Stack, Text } = Design

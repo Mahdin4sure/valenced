@@ -30,7 +30,7 @@ import {
     useState,
 } from 'react'
 import { Image, View } from 'react-native'
-import ValencedIcon from '~assets/ValencedIcon'
+import ValencedIcon from '~assets/RevengeIcon'
 import {
     belongsOnPage,
     matchInfoOfManifest,
