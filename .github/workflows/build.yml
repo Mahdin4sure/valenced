@@ -49,7 +49,11 @@ jobs:
           cache-hash: ${{ hashFiles('bundle/deno.lock') }}
 
       # Use a temp key here instead.
+      # Only needed for the Reseam patch bundle. If the engine can't be downloaded,
+      # the step fails visibly but the JS bundle, APKs and tests still run.
       - name: Install the Reseam CLI and a bundle signing key
+        id: reseam
+        continue-on-error: true
         run: |
           mkdir -p "$RUNNER_TEMP/reseam"
           version=$(sed -n 's/.*id("app.reseam.workspace") version "\(.*\)".*/\1/p' android/patches/settings.gradle.kts)
@@ -89,7 +93,10 @@ jobs:
           :android:testDebugUnitTest
           :bundle:testBundle
           :android:api:publishToMavenLocal
-          :android-patches:bundle
+
+      - name: Build patch bundle
+        if: steps.reseam.outcome == 'success'
+        run: ./gradlew :android-patches:bundle
 
       - name: Upload test reports
         if: failure()
@@ -114,6 +121,7 @@ jobs:
           if-no-files-found: error
 
       - name: Upload patch bundle
+        if: steps.reseam.outcome == 'success'
         uses: actions/upload-artifact@v7
         with:
           name: patches
